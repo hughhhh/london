@@ -14,7 +14,7 @@ def hello_world():
     return jsonify({'msg': 'ciao'})
 
 if __name__ == '__main__':
-    parser = optparse.OptionParser(usage="python app.py -p 5000")
+    parser = optparse.OptionParser(usage="python app.py -p 8080")
     parser.add_option('-p', '--port', action='store', dest='port', help='The port to listen on.')
     (args, _) = parser.parse_args()
     if args.port == None:
