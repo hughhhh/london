@@ -13,5 +13,5 @@ $ pip install -r requirements.txt
 $ python app.py
 
 # With Docker integration
-$ docker-compose
+$ docker-compose run -p 8080:8080 london
 ```
