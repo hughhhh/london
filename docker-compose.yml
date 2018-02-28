@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bartly:
+    container_name: rogue
+    environment:
+      - LYFT_CLIENT_KEY=gAAAAABXvLCPsGLkzSte0lWPnrzm9eND6kRTUtzyjBW4GhpYi-rC3k8bIzxLBpGrfsjvoSCld5m2dM-3tXNOEgkkpi8NszvSpIEgUa6FGElHzMx_3iMMKkE3BYCDxdVjU4VhKFT-I2kzz5QI5WNbqDNAD7XFWC5bCQPYIrhKuvqllAD47rWe8RI=
+    build: .
+    ports:
+    - "5000:5000"
