@@ -14,4 +14,4 @@ $ python app.py
 
 # With Docker integration
 $ docker-compose
-``
+```
